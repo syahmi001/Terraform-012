@@ -11,3 +11,6 @@ resource "aws_instance" "ec2" {
     instance_type = "t2.micro"
     count = var.number_of_servers
 }
+
+// terraform plan -var-file=test.tfvars
+// terraform plan -var-file=prod.tfvars

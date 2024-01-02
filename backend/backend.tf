@@ -7,3 +7,5 @@ terraform {
         secret_key = "your_secret_key"
     }
 }
+
+// cat ~/.aws/credentials
